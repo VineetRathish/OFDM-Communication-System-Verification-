@@ -1,0 +1,24 @@
+
+`ifdef ofdm
+`include "dut.svp"
+`elsif ofdm0
+`include "dut0.svp"
+`elsif ofdm1
+`include "dut1.svp"
+`elsif ofdm2
+`include "dut2.svp"
+`elsif ofdm3
+`include "dut3.svp"
+`elsif ofdm4
+`include "dut4.svp"
+`elsif ofdm5
+`include "dut5.svp"
+`elsif ofdm6
+`include "dut6.svp"
+`elsif ofdm7
+`include "dut7.svp"
+`elsif ofdm8
+`include "dut8.svp"
+`else
+`include "dut9.svp"
+`endif
